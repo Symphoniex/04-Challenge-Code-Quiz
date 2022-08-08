@@ -106,20 +106,3 @@ The URL of the functional, deployed application.
 
 The URL of the GitHub repository, with a unique name and a readme describing the project.
 
-Screenshots:
-
-Beginning of quiz:
-
-![Screen Shot 2022-08-08 at 1 35 00 PM](https://user-images.githubusercontent.com/106413641/183478926-206b7cf9-15fa-4e0d-902b-1f16285e9c5b.png)
-
-Correct answer:
-
-![Screen Shot 2022-08-08 at 1 35 39 PM](https://user-images.githubusercontent.com/106413641/183479061-0cd7640b-5ee0-4d91-a8b6-8436652e9ef8.png)
-
-Wrong Answer:
-
-![Screen Shot 2022-08-08 at 1 35 30 PM](https://user-images.githubusercontent.com/106413641/183479119-76da98bb-91c6-411c-b55c-18a88060916e.png)
-
-Finished Quiz:
-
-![Screen Shot 2022-08-08 at 1 35 44 PM](https://user-images.githubusercontent.com/106413641/183479190-700221b4-be2b-444c-94dd-9c6a397d7f78.png)
