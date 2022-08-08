@@ -105,16 +105,3 @@ function compare(event) {
 
     }
 
-    questionIndex++;
-
-    if (questionIndex >= questions.length) {
-  ts
-        allDone();
-        createDiv.textContent = "End of quiz!" + " " + "You got  " + score + "/" + questions.length + " Correct!";
-    } else {
-        render(questionIndex);
-    }
-    questionsDiv.appendChild(createDiv);
-
-}
-    };
