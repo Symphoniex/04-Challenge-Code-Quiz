@@ -41,8 +41,6 @@ var secondsLeft = 76;
 
 var holdInterval = 0;
 
-var penalty = 10;
-
 var ulCreate = document.createElement("ul");
 
 
@@ -99,7 +97,6 @@ function compare(event) {
             
         } else {
          
-            secondsLeft = secondsLeft - penalty;
             createDiv.textContent = "Wrong! The correct answer is:  " + questions[questionIndex].answer;
         }
 
