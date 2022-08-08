@@ -117,31 +117,4 @@ function compare(event) {
     questionsDiv.appendChild(createDiv);
 
 }
-
-function allDone() {
-    questionsDiv.innerHTML = "";
-    currentTime.innerHTML = "";
-
-
-    var createH1 = document.createElement("h1");
-    createH1.setAttribute("id", "createH1");
-    createH1.textContent = "All Done!"
-
-    questionsDiv.appendChild(createH1);
-
-
-    var createP = document.createElement("p");
-    createP.setAttribute("id", "createP");
-
-    questionsDiv.appendChild(createP);
-
-
-    if (secondsLeft >= 0) {
-        var timeRemaining = secondsLeft;
-        var createP2 = document.createElement("p");
-        clearInterval(holdInterval);
-        createP.textContent = "Your final score is: " + timeRemaining;
-
-        questionsDiv.appendChild(createP2);
-    }
     };
